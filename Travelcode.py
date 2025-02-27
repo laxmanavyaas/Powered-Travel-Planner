@@ -3,7 +3,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.schema import HumanMessage, SystemMessage
 
 # Get API key from environment variables (recommended)
-GOOGLE_API_KEY = "AIzaSyC9O8RpUku4cKmsO-JC_kBWuDBVBv4rxYc"
+GOOGLE_API_KEY = "YOUR_API_KEY"
 
 if not GOOGLE_API_KEY:
     st.error("Please set the GOOGLE_API_KEY environment variable.")
